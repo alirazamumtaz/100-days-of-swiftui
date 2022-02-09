@@ -8,15 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-//    var body: some View {
-//        NavigationLink (destination: GameView()){
-//            Text("Start")
-//                .font(.headline)
-//        }
-//    }
-    
-    
-    
+        
     @State private var options = [["rock","paper","scissors"],
                                   ["👊🏻"  ,"✋🏻"   ,"✌🏻"]]
     @State private var wins = [1,2,0]
